@@ -75,8 +75,6 @@ export default function App() {
     }
   }, [jobs])
 
-  const heroChips = ['CSV / PDF intake', 'Source-aware cards', 'Remote vs onsite at a glance']
-
   const quickSignals = [
     { label: 'Listings loaded', value: metrics.total },
     { label: 'Unique companies', value: metrics.companies },
@@ -106,11 +104,6 @@ export default function App() {
           <p className="subtitle">
             Drop in a CSV exported by the scraper or a searchable PDF, then scan the listings through a more human-feeling dashboard with stronger rhythm, better hierarchy, and cleaner signals.
           </p>
-          <div className="hero-chips">
-            {heroChips.map((chip) => (
-              <span key={chip} className="hero-chip">{chip}</span>
-            ))}
-          </div>
         </div>
 
         <div className="hero-panel">
