@@ -108,3 +108,16 @@ Before running the scraper, ensure you have the following installed:
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
+
+## 🌐 Vercel Deploy
+
+This repository contains the Python scraper at the root and the React frontend in `frontend-react/`.
+For Vercel, deploy the frontend build with the included `vercel.json` at the repo root.
+
+If you configure the project manually in Vercel, use:
+
+- Install command: `npm ci --prefix frontend-react`
+- Build command: `npm run build --prefix frontend-react`
+- Output directory: `frontend-react/dist`
