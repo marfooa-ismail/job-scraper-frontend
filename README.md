@@ -99,7 +99,7 @@ Before running the scraper, ensure you have the following installed:
 ---
 
 ## 👨‍💻 Author
-**Husnain Aslam**
+**Marfowa**
 - *Final Year BS Software Engineering Student*
 - *University of Management and Technology, Lahore*
 
